@@ -1,0 +1,15 @@
+[gd_scene load_steps=3 format=3 uid="uid://bu6a0okkynige"]
+
+[ext_resource type="Script" path="res://scripts/canvas_layer.gd" id="1_t6ac6"]
+
+[sub_resource type="LabelSettings" id="LabelSettings_chce6"]
+font_size = 75
+
+[node name="CanvasLayer" type="CanvasLayer"]
+script = ExtResource("1_t6ac6")
+
+[node name="Label" type="Label" parent="."]
+offset_right = 283.0
+offset_bottom = 103.0
+text = "Score: 0"
+label_settings = SubResource("LabelSettings_chce6")
